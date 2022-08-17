@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  background-image: url(./images/download.jfif);
+  background-position: 10% center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 10vh;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 4rem;
+  margin-top: 15rem;
+  color: white;
+}
+.countdown {
+  display: flex;
+}
+.countdown-el {
+  text-align: center;
+}
+.countdown-el span {
+  font-size: 1.5rem;
+  color: white;
+}
+.text {
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0 2rem;
+  color: white;
+}
